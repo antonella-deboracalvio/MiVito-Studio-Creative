@@ -12,10 +12,11 @@ const invitationTemplateCards = invitationTemplateList.map((template) => ({
   previewFit: template.previewFit || 'contain',
   previewPosition: template.previewPosition || 'center',
   configurable: true,
+  demoStatus: 'full',
 }));
 
 // Card template mostrate dal sito agenzia nella sezione esempi.
-export const templatesData = [
+const templateCards = [
   {
     id: 'superhero-mission',
     category: 'Kids Party',
@@ -207,3 +208,8 @@ export const templatesData = [
     palette: 'from-[#EDE3D5] via-[#FAF5EE] to-[#FFFFFF]',
   },
 ];
+
+export const templatesData = templateCards.map((template) => ({
+  demoStatus: 'preview',
+  ...template,
+}));
