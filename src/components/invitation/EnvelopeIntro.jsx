@@ -65,7 +65,6 @@ function VelvetEnvelopeIntro({ phase, setPhase }) {
 
   const openInvitation = () => {
     if (phase === 'idle') {
-      console.log('APRI INVITO clicked');
       setPhase('opening');
     }
   };

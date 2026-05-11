@@ -1,4 +1,4 @@
-import { getInvitationTemplateById } from '../../data/invitationTemplates';
+import { getInvitationTemplateById } from '../../data/invitationRegistry';
 
 function TemplateCard({ template, onPreview, onUseStyle }) {
   const invitationTemplate = getInvitationTemplateById(template.id);

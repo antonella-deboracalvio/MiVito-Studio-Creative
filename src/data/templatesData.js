@@ -1,4 +1,4 @@
-import { invitationTemplateList } from './invitationTemplates';
+import { invitationTemplateList } from './invitationRegistry';
 
 const invitationTemplateCards = invitationTemplateList.map((template) => ({
   id: template.id,

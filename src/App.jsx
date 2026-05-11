@@ -9,8 +9,8 @@ import CTA from './components/home/CTA';
 import InviteBuilder from './components/builder/InviteBuilder';
 import HeroMissionDemo from './components/invitation/heroMission/HeroMissionDemo';
 import InvitationRenderer from './components/invitation/InvitationRenderer';
-import { getInvitationTemplateById } from './data/invitationTemplates';
-import { createBuilderSelectionFromTemplate } from './components/builder/InviteBuilder';
+import { createBuilderSelectionFromTemplate } from './data/builderOptions';
+import { getInvitationTemplateById } from './data/invitationRegistry';
 import { resetWindowScroll } from './utils/scroll';
 
 const HERO_MISSION_HASH = '#/demo/hero-mission';

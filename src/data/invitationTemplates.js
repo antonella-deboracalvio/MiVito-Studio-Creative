@@ -27,6 +27,14 @@ export const invitationTemplates = {
     eventLocationUrl: 'https://maps.google.com',
     churchLocationUrl: 'https://maps.google.com',
 
+    music: {
+      type: 'spotify',
+      label: 'La nostra canzone',
+      title: 'Perfect',
+      artist: 'Ed Sheeran',
+      url: 'https://open.spotify.com/intl-it/track/0tgVpDi06FyKpA1z0VMD4v',
+    },
+
     envelope: {
       image: envelopeClosed,
       label: 'Velvet Envelope',

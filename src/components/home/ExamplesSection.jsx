@@ -5,7 +5,7 @@ import PreviewModal from './PreviewModal';
 import { templatesData } from '../../data/templatesData';
 import { inviteCategories } from '../../data/categories';
 import { categoryIcons, fallbackCategoryIcon } from '../../data/categoryIcons';
-import { getInvitationTemplateById } from '../../data/invitationTemplates';
+import { getInvitationTemplateById } from '../../data/invitationRegistry';
 import { resetWindowScroll } from '../../utils/scroll';
 
 
